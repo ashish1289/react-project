@@ -1,0 +1,42 @@
+.weather-card {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: left;
+    background-color: #f0f0f0;
+    width: 300px;
+  }
+  
+  .weather-card h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .weather-card p {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .weather-card p span {
+    font-weight: bold;
+  }
+  
+  .weather-card .weather-description {
+    text-transform: capitalize;
+    color: #777;
+  }
+  
+  .weather-card .temperature {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .weather-card .humidity {
+    color: #00529b;
+  }
+  
