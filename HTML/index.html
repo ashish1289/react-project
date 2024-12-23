@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sticky Navbar Example</title>
+  <style>
+    /* Basic Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Sticky Navbar Styles */
+    nav {
+      background-color: #333;
+      position: sticky;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      box-shadow: 0 4px 2px -2px gray;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      padding: 14px 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    nav ul li a:hover {
+      color: #ff6347;
+    }
+
+    /* Content Section */
+    .content {
+      padding: 20px;
+      margin-top: 60px; /* To prevent content from hiding under the sticky navbar */
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    section {
+      height: 500px;
+      background-color: #f0f0f0;
+      margin-bottom: 20px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Sticky Navbar -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Content Section -->
+  <div class="content">
+    <section id="home">
+      <h1>Welcome to Home Section</h1>
+      <p>This is the content of the Home section.</p>
+    </section>
+    <section id="services">
+      <h1>Our Services</h1>
+      <p>This is the content of the Services section.</p>
+    </section>
+    <section id="about">
+      <h1>About Us</h1>
+      <p>This is the content of the About section.</p>
+    </section>
+    <section id="contact">
+      <h1>Contact Us</h1>
+      <p>This is the content of the Contact section.</p>
+    </section>
+  </div>
+
+</body>
+</html>
